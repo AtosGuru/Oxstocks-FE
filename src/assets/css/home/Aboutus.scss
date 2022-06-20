@@ -1,0 +1,265 @@
+@import './Setting.scss';
+
+.aboutus_section_1 {
+    padding-top: 0.5%;
+    background-image: url('../../img/crypto/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus_link_tab {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.aboutus_link_title {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 2.18rem;
+    text-align: center;
+}
+.aboutus_link_info1 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    text-align: center;
+}
+.aboutus_link_info2 {
+    color: #6E6E6E;
+    font-family: NexaLight;
+    font-size: 1rem;
+    text-align: center;
+}
+/* section_1 */
+
+/* section_background */
+.aboutus_section_background {
+    position: relative;
+}
+.aboutus_section_background1 {
+    background-color: #1f283c;
+    height: 9rem;
+}
+.aboutus_section_background2 {
+    background-color: #363339;
+    height: 25rem;
+}
+.aboutus_panel_body {
+    position: absolute;
+    top: 14%;
+    background-color: #20293e;
+}
+.aboutus_panel_body_text1 {
+    padding-top: 5%;
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-size: 2.18rem;
+    font-weight: bold;
+    text-align: center;
+}
+.aboutus_panel_body_text2 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.aboutus_stock_item {
+    padding: 20px;
+    text-align: center;
+}
+.aboutus_stock_item_i {
+    position: relative;
+}
+.aboutus_stock_item_i::after {
+    content: '';
+    height: 100%; 
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 0; 
+    background-color: #ffffff2b; 
+    transform: rotate(30deg);
+}
+.aboutus_stock_number1 {
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.aboutus_stock_number2 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+}
+.aboutus_register_form {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 0.875rem;
+}
+.aboutus_register_btn {
+    width: 30%;
+    display: inline-block;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: $primary-color2;
+    border: 1px solid $primary-color2;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* section_background */
+
+/* section_2 */
+.aboutus_section2 {
+    background-image: url('../../img/crypto/content.png');
+    display: flex;
+    flex-direction: row;
+}
+.aboutus_oxstocks_tab {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.aboutus_img_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutus_oxstocks_panel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+.aboutus_oxstocks_panel1 {
+    padding-bottom: 20px;
+}
+.aboutus_oxstocks_panel1_text1 {
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-size: 2.18rem;
+    font-weight: bold;
+}
+.aboutus_oxstocks_panel1_text2 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+/* section_2 */
+
+/* section_3 */
+.aboutus_section3 {
+    background-color: #20293e;
+}
+.aboutus_feature_box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3% 0;
+}
+.aboutus_feature_text1 {
+    font-size: 2.18rem;
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.aboutus_feature_text2 {
+    font-size: 1rem;
+    color: $primary-color1;
+    font-family: NexaLight;
+    padding-bottom: 5%;
+}
+.aboutus_feature_item_right {
+    position: relative;
+}
+.aboutus_feature_item_right::after {
+    content: '';
+    height: 80%; 
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 0; 
+    background-color: #ffffff2b; 
+}
+.feature_hr {
+    background-color: #ffffffb4;
+    margin-top: 10% 0;
+}
+/* .aboutus_feature_item_right::after {
+    content: ""; 
+    display: block;
+    margin: 5% auto; 
+    width: 80%; 
+    padding-top: 20px;
+    border-bottom: 1px solid #ffffff2b; 
+} */
+.aboutus_feature_image {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.aboutus_feature_item_text1 {
+    margin-top: 10%;
+    font-size: 1.56rem;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-align: center;
+}
+.aboutus_feature_item_text2 {
+    font-size: 0.875rem;
+    text-align: center;
+    color: $primary-color1;
+    font-family: NexaLight;
+    line-height: 1.5rem;
+}
+.aboutus_ox_partners_box {
+    margin-top: 30px;
+    min-height: 30px;
+    background-color: #FFFFFF26;
+    border-radius: 20px;
+}
+.aboutus_dot {
+    height: 15px;
+    width: 15px;
+    margin: 0px 2px;
+    background-color: $primary-color1;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease 0s;
+}
+.aboutus_ox_partners_title {
+    font-size: 2.5rem;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+/* section_3 */
+
+
+@media only screen and (max-width: 768px) {
+    .aboutus_img {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .aboutus_section_background2 {
+        height: 50rem;
+    }
+    .aboutus_panel_body {
+        top: 10%;
+    }
+}

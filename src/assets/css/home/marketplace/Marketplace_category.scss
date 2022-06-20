@@ -1,0 +1,96 @@
+@import '../Setting.scss';
+
+.marketplaceCategory_section_1 {
+    background-color: #20293e;
+}
+.marketplaceCategory_section_2 {
+    padding-top: 5%;
+    background-color: #20293e;
+}
+.marketplaceCategory_section_2 .category_box{
+    // border: 1px solid #707070;
+    border-radius: 15px;
+    padding: 10%;
+    margin-bottom: 5%;
+    background-color: rgba($color: #FFFFFF, $alpha: 0.03);
+}
+.marketplaceCategory_section_2 .category_box p {
+    font-size: 1.56rem;
+    font-family: NexaBold;
+    color: $primary-color1;
+}
+.category_box .checkout .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.category_box .checkout .category_icon {
+    width: 18px;
+    height: 18px;
+}
+.category_box .checkout .category_text {
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: NexaLight;
+    color: $primary-color1;
+}
+.category_img_box {
+    border: 1px solid #707070;
+    border-radius: 20px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.category_img_box .title1 {
+    margin-top: 20px;
+    color: $primary-color1;
+    font-size: 1.3rem;
+    font-family: NexaBold;
+}
+.category_img_box .title2 {
+    color: rgba($color: #FFFFFF, $alpha: 0.3);
+    font-size: 1rem;
+    font-family: NexaLight;
+}
+.category_img_box .category_btn {
+    width: 130px;
+    display: inline-block;
+    color: $primary-color2;
+    font-family: NexaLight;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid $primary-color2;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.category_img_box .category_btn:hover {
+    color: $primary-color1;
+    background-color: $primary-color2;
+}
+.marketplaceCategory_section_2 .explore_btn {
+    width: 130px;
+    display: inline-block;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: $primary-color2;
+    border: 1px solid $primary-color2;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

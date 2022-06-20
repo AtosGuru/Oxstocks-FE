@@ -1,0 +1,128 @@
+.register_section {
+    // height: 400px;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #20293E;
+    z-index: 1;
+}
+.register_panel {
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 10%;
+    z-index: 5;
+}
+.register_title {
+    color: white;
+    font-size: 2.18rem;
+    font-family: NexaLight;
+    margin-bottom: 10%;
+}
+.register_email, .register_pass {
+    margin: 0 0 3%;
+}
+.remember_icon {
+    width: 25px;
+    height: 25px;
+}
+.register_remember {
+    padding-top: 10%;
+    font-size: 1.25rem;
+    color: white;
+    font-family: NexaBold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.register_rem_text {
+    margin-left: 10px;
+}
+
+.register_rem_text1 {
+    color: #F79118;
+}
+.register_submit_form {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-size: 1rem;
+}
+.register_submit_btn {
+    width: 200px;
+    display: inline-block;
+    color: white;
+    font-family: NexaLight;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #F79118;
+    border: 1px solid #F79118;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.forget_text {
+    font-size: 1.25rem;
+    color: white;
+    font-family: NexaLight;
+}
+.forget_box {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.signup_text {
+    padding-top: 10%;
+    text-align: center;
+}
+.register_newUser_text {
+    font-size: 1.25rem;
+    color: white;
+    font-family: NexaLight;
+}
+.register_signUp_text {
+    font-size: 1.25rem;
+    color: #F79118;
+    font-family: NexaLight;
+}
+.register_img {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: -1;
+}
+
+.common_input_form {
+    padding: 15px;
+    border: solid white 1px;
+    border-radius: 30px;
+    background-color: #ffffff20;
+    color: white;
+    font-family: NexaLight;
+    margin-bottom: 10px;
+}
+#mobilenumber::placeholder, #referralCode::placeholder, #repassword::placeholder{
+    color: white;
+    font-family: NexaLight;
+}
+
+@media only screen and (max-width: 994px) {
+    .register_img {
+        right:-15%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .register_img {
+        opacity: 0.3;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .register_img {
+        display: none;
+    }
+}

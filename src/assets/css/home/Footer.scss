@@ -1,0 +1,139 @@
+@import './Setting.scss';
+
+/* download */
+.download_tab {
+   padding-top: 10%;
+   padding-bottom: 5%;
+}
+.download_tab_left {
+   padding-left: 5%;
+}
+.donwload_tab_right{
+   padding-right: 5%;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+}
+.downloadnow_text {
+   color: $primary-color1;
+   font-family: NexaLight;
+   font-size: 1.25rem;
+}
+.oxstocksapp_text {
+   color: $primary-color1;
+   font-family: NexaLight;
+   font-size: 2.8rem;
+   font-weight: bold;
+}
+/* download */
+/* footer */
+.footer {
+    padding-top: 5%;
+    padding-bottom: 1px;
+    background-image: url('../../img/index/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer1_tab {
+    padding-right: 5%;
+}
+.footer1_text {
+    padding-top: 20px;
+    line-height: 2rem;
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 0.75rem;
+}
+.footer1_ul {
+    color: $primary-color1;
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer1_ul li {
+    float: left;
+    padding-right: 4%;
+}
+.footer2_text1 {
+   color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1.56rem;
+}
+.footer2_text2 {
+   color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+}
+.footere_tab p {
+   color: $primary-color1;
+   font-family: NexaLight;
+}
+.footer4_tab {
+   padding-right: 5%;
+   position: relative;
+}
+.footer4_text2 {
+   color: $primary-color1;
+   font-family: NexaLight;
+   line-height: 2rem;
+}
+
+.sendemail-home{
+   margin-top: 10%;
+   position: relative;
+   width: 100%;
+}
+
+.sendemailinput{
+   width: 85%;
+   position: absolute;
+   right: 15%;
+   height: 40px;
+   border: solid $primary-color1 1px;
+   border-radius: 20px;
+   background-color: #ffffff20;
+   padding-left: 15px;
+   color: $primary-color1;
+   font-family: NexaLight;
+}
+
+.sendemailimg{
+   position: absolute;
+   top: 3px;
+   right: 16%;
+}
+.footer_hr {
+   background: #707070;
+}
+.footer_text {
+   text-align: center;
+   color: $primary-color2;
+   font-family: NexaLight;
+   font-size: 1.5rem;
+}
+.footer_text_white {
+   color: $primary-color1;
+   font-family: NexaLight;
+   font-size: 1.5rem;
+}
+#email::placeholder {
+   color: $primary-color1;
+   font-family: NexaLight;
+}
+/* footer */
+
+@media only screen and (max-width: 1200px) {
+   .nav-item {
+       padding-right: 0;
+       font-size: 0.9rem;
+   }
+   .oxstocksapp_text {
+      font-size: 2rem;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .social_link {
+      margin-top: 15%;
+   }
+}

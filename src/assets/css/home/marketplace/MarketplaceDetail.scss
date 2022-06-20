@@ -1,0 +1,82 @@
+@import '../Setting.scss';
+
+.marketDetail_section_1 {
+    position: relative;
+    padding-top: 0.5%;
+    background-color: #20293E;
+}
+.marketDetail_section_2 {
+    padding-top: 5%;
+    position: relative;
+    background-color: #20293E;
+}
+.marketDetail_box_left {
+    background-color: rgba($color: #FFFFFF, $alpha: 0.03);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 0;
+}
+.marketDetail_box_left .title1 {
+    margin-top: 10%;
+    font-size: 2.6rem;
+    color: $primary-color1;
+    font-family: NexaBold;
+}
+.marketDetail_box_left .title2 {
+    font-size: 1.6rem;
+    color: rgba($color: #FFFFFF, $alpha: 0.3);
+    font-family: NexaLight;
+}
+.marketDetail_box_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.marketDetail_box_right .padding {
+    padding: 0% 10%;
+}
+.marketDetail_box_right .title {
+    color: $primary-color1;
+    font-size: 3.4rem;
+    font-family: NexaBold;
+    margin: 0% 0 15%;
+}
+.marketDetail_box_right .coming {
+    font-family: NexaLight;
+    color: $primary-color1;
+    font-size: 1.56rem;
+    margin: 15% 0 0;
+}
+.marketDetail_box_right .panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10% 0;
+}
+.marketDetail_box_right .panel p {
+    color: $primary-color1;
+    font-size: 1.56rem;
+    font-family: NexaLight;
+    margin-left: 10%;
+}
+.market_buy_btn {
+    width: 200px;
+    display: inline-block;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid #F79118;
+    background-color: #F79118;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

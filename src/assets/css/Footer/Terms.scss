@@ -1,0 +1,20 @@
+@import '../home/Setting.scss';
+
+.terms_section_1 , .terms_section_2 {
+    background-color: #20293e;
+}
+.terms_section_2 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.terms_title {
+    font-family: NexaBold;
+    font-size: 2.25rem;
+    color: white;
+}
+.terms_subtitle {
+    font-family: NexaLight;
+    font-size: 1rem;
+    color: white;
+    line-height: 2rem;
+}

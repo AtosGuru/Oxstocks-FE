@@ -1,0 +1,35 @@
+@import './Setting.scss';
+
+.partnership_section_2 {
+    background-color: #20293E;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: row;
+
+    .section2_box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .box_left {
+        border: 2px solid #FFFFFF30;
+        border-radius: 10px;
+        padding: 5%;
+
+        .title1 {
+            color: $primary-color1;
+            font-family: NexaLight;
+            font-size: 35px;
+        }
+        .panel1 {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+    }
+}
+
+.partnership_section_3 {
+    background-color: #20293E;
+}

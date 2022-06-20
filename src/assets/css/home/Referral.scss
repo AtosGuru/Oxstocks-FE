@@ -1,0 +1,77 @@
+@import './Setting.scss';
+
+.referral_section_2 {
+    background-color: #20293E;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: row;
+
+    .section2_box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box_left {
+        border: 2px solid #FFFFFF30;
+        border-radius: 10px;
+        padding: 5%;
+
+        .title1 {
+            font-family: NexaLight;
+            font-size: 35px;
+            color: $primary-color1;
+        }
+        .panel1 {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .title2 {
+            font-family: NexaLight;
+            font-size: 20px;
+            color: $primary-color1;
+        }
+        .panel2 {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            flex-wrap: wrap;
+
+            .panel2_sub {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+
+                .title3 {
+                    font-family: NexaLight;
+                    color: $primary-color1;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+input[type="radio"]:after {
+    background-color: #3c4456;
+    border: 1px solid #FFFFFF60;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+input[type="radio"]:checked:after {
+    background-color: $primary-color2;
+}
+
+.referral_section_3 {
+    background-color: #20293E;
+}

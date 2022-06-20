@@ -1,0 +1,242 @@
+@import './Setting.scss';
+
+@font-face { font-family: NexaLight; 
+    src: url('../../fonts/nexa/NexaLight.otf');
+} 
+@font-face { font-family: NexaBold; 
+    src: url('../../fonts/nexa/NexaBold.otf'); 
+}
+
+.alert {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background: var(--light-color);
+  color: #333;
+}
+
+.btn-primary,
+.bg-primary,
+.badge-primary,
+.alert-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-light,
+.bg-light,
+.badge-light,
+.alert-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.btn-dark,
+.bg-dark,
+.badge-dark,
+.alert-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-danger,
+.bg-danger,
+.badge-danger,
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.btn-success,
+.bg-success,
+.badge-success,
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
+
+.btn-white,
+.bg-white,
+.badge-white,
+.alert-white {
+  background: #fff;
+  color: #333;
+  border: #ccc solid 1px;
+}
+
+.slick-dots li button:before {
+    font-size: 18px !important;
+    color: white !important;
+}
+.wallet_btn {
+    background-color: $primary-color2;
+    border-radius: 5%;
+    margin-left: 2rem;
+    margin-top: 20px;
+}
+.wallet_btn_fontColor {
+    color: $primary-color1 !important;
+}
+.nav-item {
+    padding-right: 1rem;
+    font-size: 1rem;
+}
+.nav-link {
+    font-family: NexaLight;
+    color: $primary-color1 !important;
+}
+.account_btn {
+    margin-left: 1rem;
+    margin-top: 20px;
+}
+
+//team
+.dash_ox_team_box {
+  margin-top: 30px;
+  min-height: 30px;
+  // background-color: #FFFFFF26;
+  border-radius: 20px;
+  padding-bottom: 7%;
+}
+.dash_ox_team_title {
+  font-size: 2.5rem;
+  color: $primary-color1;
+  font-family: NexaLight;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+//team
+
+// partner
+.dash_ox_partners_box {
+    margin-top: 30px;
+    min-height: 30px;
+    background-color: #FFFFFF26;
+    border-radius: 20px;
+    padding-bottom: 7%;
+}
+.dash_ox_partners_title {
+    font-size: 2.5rem;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+// partner
+
+.font-white {
+    color: #fff;
+    cursor: pointer;
+  }
+.css-1gvla80-MuiTypography-root{
+    padding-top: 17% !important;
+    font-size: 1.25rem !important;
+    font-family: "NexaLight" !important;
+}
+.css-5nwj3y {
+    margin-left: 2% !important;
+}
+.nav-table {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .nav-table td {
+    padding: 10px;
+  }
+  .nav-table td .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 380px;
+    background-color: #2d2e31;
+    cursor: pointer;
+    padding: 10%;
+  }
+  .nav-table td .content .detail {
+    font-weight: normal;
+    font-family: "NexaLight" !important;
+  }
+  .nav-table td .content1 .detail {
+    font-weight: normal;
+    font-family: "NexaLight" !important;
+  }
+  .nav-table td .content1 {
+    width: 100%;
+    height: 180px;
+    background-color: #2d2e31;
+    cursor: pointer;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-table td .content1:hover {
+    animation-duration: 1s;
+    animation-name: navitembackchange;
+    animation-fill-mode: forwards;
+  }
+  .nav-table td .content:hover {
+    animation-duration: 1s;
+    animation-name: navitembackchange;
+    animation-fill-mode: forwards;
+  }
+  .MuiPaper-root {
+    background-color: #1d1e21 !important;
+  }
+
+  .css-6hp17o-MuiList-root-MuiMenu-list {
+    font-family: NexaLight !important;
+    color:  white !important;
+  }
+
+  
+a {
+    color: white !important;
+    text-decoration: none;
+  }
+  .css-10hburv-MuiTypography-root {
+    color: black;
+  }
+ 
+  .css-i4bv87-MuiSvgIcon-root {
+    color: black;
+  }
+  /* Animations */
+  @keyframes navitembackchange {
+    100% {
+      background-color: rgba(0, 52, 173, 0.544);
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+    .nav-item {
+        padding-right: 0;
+        font-size: 0.9rem;
+    }
+    #nav_box1 {
+        display: none !important;
+    }
+    #nav_box2 {
+        display: flex !important;
+    }
+    .MuiPaper-root {
+      background-color: white !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .wallet_btn {
+        margin-left: 0;
+    }
+    .account_btn {
+        margin-left: 0;
+    }
+}
+

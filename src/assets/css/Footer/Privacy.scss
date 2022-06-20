@@ -1,0 +1,26 @@
+@import '../home/Setting.scss';
+
+.privacy_section_1 , .privacy_section_2 {
+    background-color: #20293e;
+}
+.privacy_section_2 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.privacy_title {
+    font-family: NexaBold;
+    font-size: 2.25rem;
+    color: white;
+}
+.privacy_subtitle_p {
+    font-family: NexaLight;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2rem;
+}
+.privacy_subtitle {
+    font-family: NexaLight;
+    font-size: 1rem;
+    color: white;
+    line-height: 2rem;
+}

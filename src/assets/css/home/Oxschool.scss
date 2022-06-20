@@ -1,0 +1,283 @@
+@import './Setting.scss';
+
+.oxschools_section_1 {
+    padding-top: 0.5%;
+    background-image: url('../../img/oxschool/oxschool_header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -2px;
+}
+.oxschools_header_box {
+    position: relative;
+}
+.oxschools_header_left_box {
+    padding-top: 5%;
+    padding-right: 10%;
+}
+.oxschools_header_left_box_text1 {
+    font-size: 2.18rem;
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-weight: bold;
+}
+.oxschools_header_left_box_text2 {
+    font-size: 1rem;
+    color: $primary-color1;
+    font-family: NexaLight;
+    line-height: 2rem;
+}
+.oxschools_header_left_box_text3 {
+    font-size: 1rem;
+    color: $primary-color1;
+    font-family: NexaLight;
+    line-height: 2rem;
+}
+.oxschools_star_margin {
+    margin-right: 5px;
+}
+.oxschools_creater_img {
+    margin-right: 3%;
+}
+.oxschools_star_text {
+    color: $primary-color2;
+    margin-left: 10px;
+}
+.oxschools_creater_panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.oxschools_creater_name {
+    margin-top: 10%;
+    font-size: 1.56rem;
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-weight: bold;
+}
+.oxschools_creater_date {
+    margin-top: -10%;
+    font-size: 0.75rem;
+    color: $primary-color1;
+    font-family: NexaLight;
+}
+.oxschools_intro_video {
+    position: absolute;
+    top: 17%;
+    right: 0;
+    background-color: #2E3A53;
+    border-radius: 20px;
+}
+.oxschools_intro_video_img {
+    position: relative;
+    text-align: center;
+    margin: 13px 0px;
+    padding: 20px;
+    background-color: #21293F;
+    border-radius: 20px;
+}
+.oxschools_watch_intro_text {
+    margin-top: revert;
+    font-size: 1rem;
+    color: $primary-color2;
+    font-family: NexaLight;
+}
+.oxschools_play_panel {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    display: flex;
+    background-color: $primary-color1;
+    border-radius: 10px;
+    padding: 10px 25px;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+.oxschools_price_panel {
+    margin-left: 5%;
+}
+.oxschools_price_panel1 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.oxschools_price_100 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: $primary-color2;
+    font-family: NexaBold;
+}
+.oxschools_price_300 {
+    font-size: 1.56rem;
+    color: #707070;
+    margin-left: 5%;
+    font-family: NexaLight;
+}
+.oxschools_price_hours {
+    font-size: 1.56rem;
+    color: $primary-color2;
+    font-family: NexaLight;
+}
+.oxschools_submit_form {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 0.875rem;
+}
+.oxschools_submit_btn {
+    width: 95%;
+    display: inline-block;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: $primary-color2;
+    border: 1px solid $primary-color2;
+    padding: 1rem 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.oxschools_learn_form {
+    padding-top: 10%;
+    padding-bottom: 30%;
+    font-size: 0.875rem;
+}
+.oxschools_learn_btn {
+    // width: 95%;
+    width: 300px;
+    display: inline-block;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: $primary-color2;
+    border: 1px solid $primary-color2;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.oxschools_crypto_form {
+    margin-top: 10%;
+    /* padding-bottom: 30%; */
+    font-size: 0.875rem;
+}
+.oxschools_crypto_btn {
+    width: 300px;
+    display: inline-block;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: $primary-color2;
+    border: 1px solid $primary-color2;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* section_1 */
+
+/* section_2 */
+.oxschools_section2 {
+    padding-top: 3%;
+    background-color: #20293E;
+}
+.oxschools_learn_text {
+    font-size: 2.18rem;
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-weight: bold;
+}
+.oxschools_check_panel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.oxschools_check_img {
+    margin-top: 3%;
+}
+.oxschools_check_text {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 0.8125rem;
+    padding: 0 3%;
+    line-height: 2rem;
+}
+.oxschools_check_hr {
+    background-color: #ffffffb4; 
+    margin-top: 10%; 
+    margin-bottom: 10%;
+}
+.oxschools_description_text {
+    font-size: 2.18rem;
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-weight: bold;
+}
+.oxschools_description_text_detail {
+    font-size: 1rem;
+    color: $primary-color1;
+    font-family: NexaLight;
+    line-height: 2rem;
+}
+.oxschools_crypto_text {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-size: 1.56rem;
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-weight: bold;
+}
+.oxschools_crypto_menu {
+    font-size: 1rem;
+    font-weight: bold;
+    color: $primary-color1;
+    font-family: NexaBold;
+}
+.oxschools_crypto_detail {
+    padding-top: 2%;
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+/* section_2 */
+
+/* section_4 */
+.oxschools_section4 {
+    background-color: #20293e;
+}
+/* section_4 */
+
+@media only screen and (max-width: 1200px) {
+    .oxschools_header_left_box {
+        padding-right: 0;
+    }
+    .oxschools_check_hr {
+        display: none;
+    }
+    .oxschools_check_img {
+        margin-top: 2%;
+    }
+    .oxschools_intro_video {
+        top: 12%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .oxschools_intro_video {
+        position: relative;
+    }
+}

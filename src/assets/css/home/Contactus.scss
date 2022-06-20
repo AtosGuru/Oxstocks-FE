@@ -1,0 +1,125 @@
+@import './Setting.scss';
+
+.contact_section_1 {
+    padding-top: 0.5%;
+    background-image: url('../../img/crypto/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_link_tab {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.contact_link_title {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 2.18rem;
+    text-align: center;
+}
+.contact_link_info1 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    text-align: center;
+}
+.contact_link_info2 {
+    color: #6E6E6E;
+    font-family: NexaLight;
+    font-size: 1rem;
+    text-align: center;
+}
+/* section_1 */
+
+/* section_2 */
+.contact_section2{
+    padding-top: 5%;
+    background-image: url('../../img/contactus/contact_home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_msg_box_left_text1 {
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-size: 2.18rem;
+    font-weight: bold;
+}
+.contact_msg_box_left_text2 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+#subject, #password {
+    padding: 15px;
+}
+
+#firstname, #lastname, #email, #subject, #message, #password, #mobilenumber, #date_form, #referralCode, #repassword {
+    border: solid $primary-color1 1px;
+    border-radius: 30px;
+    background-color: #ffffff20;
+    color: $primary-color1;
+    font-family: NexaLight;
+    margin-bottom: 10px;
+}
+#firstname::placeholder, #lastname::placeholder, #email::placeholder, #subject::placeholder, #message::placeholder , #password::placeholder{
+    color: $primary-color1;
+    font-family: NexaLight;
+}
+.contact_msg_input_box {
+    margin-bottom: 3%;
+}
+.contact_sendMessage_form {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 0.875rem;
+}
+.contact_sendMessage_btn {
+    width: 200px;
+    display: inline-block;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: $primary-color2;
+    border: 1px solid $primary-color2;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.contact_msg_box_right {
+    padding: 3% 3%;
+    background-color: #ffffff20;
+    border-radius: 30px;
+}
+.contact_msg_box_right_img {
+    margin-right: 5%;
+}
+.contact_icon_panel {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.contact_msg_box_right_text1 {
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-size: 1.56rem;
+    font-weight: bold;
+}
+.contact_msg_box_right_text2 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+/* section_2 */
+
+
+@media only screen and (max-width: 768px) {
+    
+}

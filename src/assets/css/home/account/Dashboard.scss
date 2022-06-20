@@ -1,0 +1,53 @@
+@import '../Setting.scss';
+
+.account_section_2 {
+    background-color: #272E43;
+    padding: 3% 0;
+
+    .left_box {
+        border-radius: 10px;
+        border: 1px solid #FFFFFF40;
+        background-color: #273044;
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        gap: 20px;
+
+        .item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            padding: 10px 30px;
+            // background-color: #F79118;
+            border-radius: 10px;
+            width: 100%;
+            cursor: pointer;
+            label {
+                color: $primary-color1;
+                font-size: 20px;
+                font-family: NexaLight;
+            }
+        }
+        .item:hover:not(.active) {
+            background-color: #FFFFFF40;
+        }
+        .active {
+            background-color: #F79118;
+        }
+    }
+    .right_box {
+        .title1 {
+            color: $primary-color1;
+            font-family: NexaLight;
+            font-size: 25px;
+        }
+        .title2 {
+            padding-top: 3%;
+            color: $primary-color1;
+            font-family: NexaLight;
+            font-size: 25px;
+        }
+    }
+}

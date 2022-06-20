@@ -1,0 +1,218 @@
+@import './Setting.scss';
+
+.crypto_section_1 {
+    padding-top: 0.5%;
+    background-image: url('../../img/crypto/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crypto_link_tab {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.crypto_link_title {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 2.18rem;
+    text-align: center;
+}
+.crypto_link_info1 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    text-align: center;
+}
+.crypto_link_info2 {
+    color: #6E6E6E;
+    font-family: NexaLight;
+    font-size: 1rem;
+    text-align: center;
+}
+/* section_1 */
+
+/* section_2 */
+.crypto_section2 {
+    background-image: url('../../img/crypto/content.png');
+    display: flex;
+    flex-direction: row;
+}
+.crypto_panel_body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #272E43;
+    border-radius: 20px;
+    margin-top: -5%;
+    justify-content: space-evenly;
+}
+.crypto_cryptoitem_main {
+    display: flex;
+    align-self: center;
+    justify-items: center;
+    padding: 30px 0;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.crypto_img_right_item1 {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.crypto_img_right_item1_text1 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+}
+.crypto_img_right_item1_text2 {
+    color: $primary-color2;
+    font-family: NexaLight;
+    font-size: 1rem;
+}
+
+.crypto_img_right_item1_text_green {
+    font-size: 0.93rem;
+    color: #38AB0B;
+    font-family: NexaLight;
+}
+.crypto_img_right_item1_text_warning {
+    font-size: 0.93rem;
+    color: $primary-color2;
+    font-family: NexaLight;
+}
+
+.crypto_cryptoitem {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    width: 10%;
+    padding: 10px;
+}
+.crypto_crypto_row_head {
+    border-top: 1px solid #FFFFFF26;
+    border-bottom: 1px solid #FFFFFF26;
+}
+.crypto_crypto_row:nth-child(even) {
+    /* margin-top: 10px; */
+    background-color: #FFFFFF26;
+}
+.crypto_cryptoitem_body {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    width: 10%;
+    padding: 10px;
+}
+.crypto_img_right_item1 {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+#filterbykeyword {
+    border: solid $primary-color1 1px;
+    border-radius: 20px;
+    background-color: #ffffff20;
+    color: $primary-color1;
+    font-family: NexaLight;
+ }
+ #filterbykeyword::placeholder {
+    color: $primary-color1;
+    font-family: NexaLight;
+ }
+ select#pagesize {
+    border: solid $primary-color1 1px;
+    border-radius: 20px;
+    background-color: #ffffff20 !important;
+    color: $primary-color1;
+    font-family: NexaLight;
+ }
+.crypto_buy_btn {
+    width: 100%;
+    display: inline-block;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid #F79118;
+    background-color: #F79118;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.crypto_sell_btn {
+    width: 100%;
+    display: inline-block;
+    color: $primary-color1;
+    font-family: NexaLight;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid $primary-color2;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.crypto_sell_btn:hover {
+    background-color: $primary-color2;
+}
+.crypto_pagination {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-start;
+}
+.crypto_pagination_ul {
+    text-align: center;
+    list-style-type: none;
+    float: left;
+}
+.crypto_pagination_ul li {
+    color: $primary-color1;
+    font-family: NexaLight;
+    margin-right: 1rem;
+    float: left;
+    text-align: center;
+}
+#left_icon {
+    float: left;
+}
+#pagination_ul li:first-child {
+    color: $primary-color2;
+    font-family: NexaLight;
+}
+#pagination_ul {
+    float: left;
+}
+#right_icon {
+    float: left;
+}
+.crypto_input_tab {
+    padding-top: 5%;
+    padding-bottom: 5%;
+ }
+/* section_2 */
+.crypto_partner_img {
+    margin: auto;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 768px) {
+    #filterbykeyword {
+        margin-bottom: 3%;
+    }
+ }
+

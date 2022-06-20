@@ -1,0 +1,116 @@
+.login_section {
+    // height: 400px;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #20293E;
+    z-index: 1;
+    // background-image: url('../../img/auth/login_back.png');
+    // background-repeat: no-repeat;
+    // background-size: contain;
+}
+.login_panel {
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 10%;
+    z-index: 5;
+}
+.login_title {
+    color: white;
+    font-size: 2.18rem;
+    font-family: NexaLight;
+}
+.login_email {
+    margin: 15% 0;
+}
+.remember_icon {
+    width: 25px;
+    height: 25px;
+}
+.login_remember {
+    padding-top: 10%;
+    font-size: 1.25rem;
+    color: white;
+    font-family: NexaBold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.login_rem_text {
+    margin-left: 10px;
+}
+
+.login_submit_form {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-size: 1rem;
+}
+.login_submit_btn {
+    width: 200px;
+    display: inline-block;
+    color: white;
+    font-family: NexaLight;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #F79118;
+    border: 1px solid #F79118;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.forget_text {
+    font-size: 1.25rem;
+    color: white;
+    font-family: NexaLight;
+}
+.forget_box {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.signup_text {
+    padding-top: 10%;
+    text-align: center;
+}
+.login_newUser_text {
+    font-size: 1.25rem;
+    color: white;
+    font-family: NexaLight;
+}
+.login_signUp_text {
+    font-size: 1.25rem;
+    color: #F79118;
+    font-family: NexaLight;
+}
+.login_img {
+    position: absolute;
+    right: 0;
+    top: 15%;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 994px) {
+    .forget_box {
+        flex-direction: column !important;
+    }
+    .login_img {
+        right:-10%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .login_img {
+        opacity: 0.5;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .login_img {
+        display: none;
+    }
+}

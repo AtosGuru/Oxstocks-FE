@@ -1,0 +1,22 @@
+@import '../Setting.scss';
+
+.pro_right_box {
+    .title1 {
+        font-size: 25px;
+        color: $primary-color1;
+        font-family: NexaBold;
+    }
+    .row {
+        padding-bottom: 20px;
+    }
+    input {
+        border-radius: 50px !important;
+        padding-left: 30px !important;
+    }
+    textarea {
+        padding-left: 30px !important;
+    }
+    button {
+        border-radius: 10px !important;
+    }
+}

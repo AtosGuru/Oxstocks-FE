@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-control {
+  border: solid #FFFFFF 1px !important;
+  border-radius: 20px !important;
+  background-color: #ffffff20 !important;
+  color: #FFFFFF !important;
+  font-family: NexaLight !important;
+  margin-bottom: 1%;
+  padding: 15px !important;
+}
+.form-control::placeholder {
+  color: #FFFFFF !important;
+  font-family: NexaLight !important;
+}
+.btn-warning {
+  color: white !important;
+  background-color: #F79118 !important;
+  padding: 2% 5%;
+  font-family: NexaLight;
+}
+
+.btn-danger {
+  color: white !important;
+  background-color: #FF0000 !important;
+  padding: 2% 5%;
+  font-family: NexaLight;
+}
+
+.btn-warning-board {
+  color: #F79118 !important;
+  border: 1px solid #F79118 !important;
+  padding: 2% 5%;
+  font-family: NexaLight;
+}
+.btn-warning-board:hover {
+  color: white !important;
+  border: 1px solid #F79118 !important;
+  background-color: #F79118;
+  padding: 2% 5%;
+  font-family: NexaLight;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-top-30 {
+  margin-top: 30px;
+}
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: white!important;
+}

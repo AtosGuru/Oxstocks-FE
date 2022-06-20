@@ -1,0 +1,225 @@
+@import './Setting.scss';
+
+.oxcoin_section_1 {
+    background-image: url('../../img/oxcoin/oxcoin_header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 40%;
+
+    .header_section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .title1 {
+            color: $primary-color1;
+            font-family: NexaBold;
+            font-size: 2.8rem;
+        }
+        .title2 {
+            color: $primary-color1;
+            font-family: NexaLight;
+            font-size: 1.375rem;
+            line-height: 2.5rem;
+        }
+    }
+}
+
+.oxcoin_section_2 {
+    padding-top: 3%;
+    background-color: #20293E;
+    .title1 {
+        color: $primary-color1;
+        font-family: NexaBold;
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba($color: #FFFFFF, $alpha: 0.03);
+        border-radius: 20px;
+        padding: 10%;
+        min-height: 500px;
+    }
+    .title2 {
+        color: $primary-color1;
+        font-family: NexaBold;
+        font-size: 1.56rem;
+        padding-top: 5%;
+    }
+    .title3 {
+        color: $primary-color1;
+        font-family: NexaLight;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}
+.oxcoin_section_3 {
+    background-image: url('../../img/oxcoin/oxcoin_body.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+
+    .title1 {
+        color: $primary-color1;
+        font-family: NexaBold;
+        font-size: 2.8rem;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .title2 {
+        color: $primary-color1;
+        font-family: NexaLight;
+        font-size: 1.375rem;
+        text-align: center;
+    }
+    .box_contain1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .box_contain2 {
+            display: flex;
+            flex-direction: column;
+            align-content: flex-end;
+            .box {
+                background-color: rgba($color: #FFFFFF, $alpha: 0.03);
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 5% 10%;
+                margin-bottom: 2%;
+
+                .box_title {
+                    margin-top: 10%;
+                    color: $primary-color1;
+                    font-family: NexaLight;
+                    font-size: 1.625rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.oxcoin_section_4 {
+    background-color: #20293E;
+    padding-bottom: 4%;
+    .title1 {
+        color: $primary-color1;
+        font-family: NexaBold;
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    .title2 {
+        color: $primary-color1;
+        font-family: NexaLight;
+        font-size: 1.3rem;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+}
+
+.oxcoin_section_5 {
+    background-color: #20293E;
+    padding-bottom: 4%;
+    .box {
+        background-color: rgba($color: #FFFFFF, $alpha: 0.1);
+        border-radius: 20px;
+        padding: 5% 3%;
+
+        .title1 {
+            color: $primary-color1;
+            font-family: NexaBold;
+            font-size: 2.7rem;
+            text-align: center;
+        }
+        .title2 {
+            color: $primary-color1;
+            font-family: NexaLight;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+    }
+}
+
+.oxcoin_section_6 {
+    background-color: #20293E;
+    padding-bottom: 4%;
+    .title1 {
+        color: $primary-color1;
+        font-family: NexaBold;
+        font-size: 2.7rem;
+        text-align: center;
+    }
+    .title2 {
+        color: $primary-color1;
+        font-family: NexaLight;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .box_contain {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .col-xl-5 , .col-md-6, .col-sm-12 {
+            margin-bottom: 2%;
+        }
+        .box {
+            background-color: rgba($color: #FFFFFF, $alpha: 0.1);
+            border-radius: 10px;
+            padding: 5%;
+            .title3 {
+                color: $primary-color1;
+                font-family: NexaBold;
+                font-size: 1.5rem;
+            }
+            .title4 {
+                color: $primary-color1;
+                font-family: NexaLight;
+                font-size: 1rem;
+                line-height: 2rem;
+            }
+        }
+    }
+    
+}
+
+.oxcoin_section_7 {
+    background-color: #20293E;
+    padding-bottom: 4%;
+    .title1 {
+        color: $primary-color1;
+        font-family: NexaBold;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .title2 {
+        color: $primary-color1;
+        font-family: NexaLight;
+        font-size: 2.7rem;
+        text-align: center;
+    }
+    .box {
+        padding-top: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        .email_input {
+            margin-right: 20px;
+            border-radius: 100px !important;
+            margin-bottom: 0;
+        }
+        .btn_subscribe {
+            border-radius: 50px;
+        }
+    }
+}
+
+.oxcoin_section_8 {
+    background-color: #20293E;
+}

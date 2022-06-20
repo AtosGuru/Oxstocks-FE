@@ -1,0 +1,81 @@
+@import './Setting.scss';
+
+.oxchain_section_1 {
+    padding-top: 0.5%;
+    background-image: url('../../img/crypto/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.oxchain_link_tab {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.oxchain_link_title {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 2.18rem;
+    text-align: center;
+}
+.oxchain_link_info1 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    text-align: center;
+}
+.oxchain_link_info2 {
+    color: #6E6E6E;
+    font-family: NexaLight;
+    font-size: 1rem;
+    text-align: center;
+}
+/* section_1 */
+
+
+/* section_2 */
+.oxchain_section2 {
+    background-image: url('../../img/oxchain/oxchain.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -2px;
+}
+.oxchain_oxlabs_tab {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.oxchain_oxlabs_panel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+.oxchain_oxlabs_panel1 {
+    padding-bottom: 20px;
+}
+.oxchain_oxlabs_panel1_text1 {
+    color: $primary-color1;
+    font-family: NexaBold;
+    font-size: 2.18rem;
+    font-weight: bold;
+}
+.oxchain_oxlabs_panel1_text2 {
+    color: $primary-color1;
+    font-family: NexaLight;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+/* section_2 */
+
+/* section_4 */
+.oxchain_section4 {
+    background-color: #20293e;
+}
+/* section_4 */
+
+.oxchain_download {
+    background-color: #20293e;
+}
